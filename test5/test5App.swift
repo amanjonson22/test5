@@ -6,12 +6,15 @@
 //
 
 import SwiftUI
+import SwiftData
 
 @main
 struct test5App: App {
+   
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .modelContainer(for: Friend.self)
         }
     }
 }

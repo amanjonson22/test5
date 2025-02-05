@@ -14,6 +14,7 @@
 		7BA279A12D53EA23006C505F /* test5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA279A02D53EA23006C505F /* test5Tests.swift */; };
 		7BA279AB2D53EA23006C505F /* test5UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA279AA2D53EA23006C505F /* test5UITests.swift */; };
 		7BA279AD2D53EA23006C505F /* test5UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA279AC2D53EA23006C505F /* test5UITestsLaunchTests.swift */; };
+		7BCBEF162D53F538002B0CEA /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCBEF152D53F538002B0CEA /* Friend.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		7BA279A62D53EA23006C505F /* test5UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = test5UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BA279AA2D53EA23006C505F /* test5UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test5UITests.swift; sourceTree = "<group>"; };
 		7BA279AC2D53EA23006C505F /* test5UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test5UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7BCBEF152D53F538002B0CEA /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				7BA2798F2D53EA22006C505F /* test5App.swift */,
 				7BA279912D53EA22006C505F /* ContentView.swift */,
+				7BCBEF152D53F538002B0CEA /* Friend.swift */,
 				7BA279932D53EA23006C505F /* Assets.xcassets */,
 				7BA279952D53EA23006C505F /* Preview Content */,
 			);
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BCBEF162D53F538002B0CEA /* Friend.swift in Sources */,
 				7BA279922D53EA22006C505F /* ContentView.swift in Sources */,
 				7BA279902D53EA22006C505F /* test5App.swift in Sources */,
 			);
